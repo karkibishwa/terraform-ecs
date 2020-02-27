@@ -1,4 +1,4 @@
-ource "aws_security_group" "default" {
+resource "aws_security_group" "default" {
   name        = "terraform-ecs-nginx"
   description = "Allow traffic"
   vpc_id      = "vpc-f8a48e82"
